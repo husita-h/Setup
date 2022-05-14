@@ -1,0 +1,17 @@
+# Rubyのセットアップ
+
+## 各種パッケージをインストール
+## bundler
+```
+sudo apt install ruby-bundler
+```
+
+### rbenv
+* 参考
+  * https://github.com/rbenv/rbenv
+```sh
+sudo apt update
+sudo apt install rbenv
+rbenv init
+curl -fsSL https://github.com/rbenv/rbenv-installer/raw/main/bin/rbenv-doctor | bash
+```
